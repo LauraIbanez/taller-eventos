@@ -1,7 +1,7 @@
-const div = document.querySelector("div");
+const boton = document.getElementById("boton");
 
 function action() {
-  alert("Hola! Soy el div");
+  alert("Hola! Soy el boton");
 };
 
-div.addEventListener("click", action);
+boton.addEventListener("click", action);
